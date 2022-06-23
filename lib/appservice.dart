@@ -6,6 +6,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class Service {
+
   Future<List<cData>> getAllData() async {
     final response = await http.get(
         Uri.parse('https://api-berita-indonesia.vercel.app/cnbc/terbaru/'));

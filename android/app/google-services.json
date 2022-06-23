@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "800552477497",
+    "project_id": "ambwuas-c244a",
+    "storage_bucket": "ambwuas-c244a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800552477497:android:bcc7d85711194e48cafee8",
+        "android_client_info": {
+          "package_name": "com.example.uas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800552477497-kn1thkl02079phh9elf8qffb0l38ahi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7MzrP_beOU5fpTlFo75FqU8SyhU1mbMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800552477497-kn1thkl02079phh9elf8qffb0l38ahi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

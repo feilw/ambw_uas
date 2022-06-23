@@ -1,7 +1,7 @@
 // class data-data yang akan di ambil
 
 class cData {
-  String cid;
+  // String cid;
   String ctitle;
   String cpubDate;
   String cdescription;
@@ -9,7 +9,7 @@ class cData {
   String clink;
 
   cData({
-    required this.cid,
+    // required this.cid,
     required this.ctitle,
     required this.cpubDate,
     required this.cdescription,
@@ -19,7 +19,7 @@ class cData {
 
   factory cData.fromJson(Map<String, dynamic> json) {
     return cData(
-        cid: json['id'],
+        // cid: json['id'],
         ctitle: json['title'],
         cpubDate: json['pubDate'],
         cdescription: json['description'],

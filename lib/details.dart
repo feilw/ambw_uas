@@ -18,6 +18,7 @@ class _DetailsPageState extends State<DetailsPage> {
           title: Text("Details Page"),
           backgroundColor: Color.fromARGB(255, 82, 10, 4),
         ),
+        
         backgroundColor: Colors.red[900],
         body: SafeArea(
           child: Center(
