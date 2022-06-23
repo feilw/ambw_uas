@@ -4,7 +4,6 @@
 import 'dataclass.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'dataclass.dart';
 
 class Service {
   Future<List<cData>> getAllData() async {
@@ -46,7 +45,7 @@ class Service {
 
   Future<cData> getSingleData(String id) async {
     final response = await http.get(
-        Uri.parse('https://6283762138279cef71d77f41.mockapi.io/api/v1/$id'));
+        Uri.parse('https://api-berita-indonesia.vercel.app/cnbc/terbaru/$id'));
 
     if (response.statusCode == 200) {
       cData jsonResponse = cData.fromJson(jsonDecode(response.body));
